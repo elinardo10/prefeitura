@@ -6,6 +6,7 @@
 
 @section('conteudo')
 <!--INÍCIO CAROUSEL-->
+
 <section id="carousel-home" class="container-fluid">
   <div class="row">
     <div id="featured-carousel" class="carousel slide" data-ride="carousel">

@@ -20,7 +20,7 @@
           </div>
           <div id="navbar-main-menu" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="index.html" alt="Início"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+              <li><a href="{{route('site.index')}}" alt="Início"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
 
               <!-- O MUNICÍPIO -->
               <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">O município<b class="caret"></b></a>
@@ -30,7 +30,7 @@
                       <div class="row">
                         <ul class="col-xs-4 list-unstyled">
                           <li><p><strong>Sobre o município</strong></p></li>
-                          <li><a href="#">História</a></li>
+                          <li><a href="{{route('site.historia')}}">História</a></li>
                           <li><a href="#">Geografia</a></li>
                           <li><a href="#">Economia</a></li>
                           <li><a href="#">Turismo</a></li>

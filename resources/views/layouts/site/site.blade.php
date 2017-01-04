@@ -33,7 +33,8 @@
     <nav class="navbar navbar-default yamm navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <p class="navbar-text">Limoeiro do Norte, {{date('d')}} de {{date('F')}} de {{date('Y')}}</p>
+          <p class="navbar-text">Limoeiro do Norte, {{ $data }}</p>
+         
         </div>
         <ul class="nav navbar-nav" style="float:right;">
           <li><a href="javascript:mudacontraste('a')" class="navbar-link">Contraste</a></li>
