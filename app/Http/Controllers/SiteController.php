@@ -21,6 +21,6 @@ $dt->toTimeString()
 
 
 
-     return view('site.index')->with(compact('data'));
+     return view('index')->with(compact('data'));
     }
 }

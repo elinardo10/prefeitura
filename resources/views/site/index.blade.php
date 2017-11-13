@@ -102,107 +102,15 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#latests" aria-controls="latests" role="tab" data-toggle="tab">Recentes</a></li>
-          <li role="presentation"><a href="#top" aria-controls="top" role="tab" data-toggle="tab">Mais vistas</a></li>
-        </ul>
-        <br>
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="latests">
-            <div class="media">
-              <div class="media-left">
-                <a href="#"><img class="media-object" src="http://placehold.it/60x60" alt="..."></a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="top">
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="http://placehold.it/60x60" alt="...">
-                </a>
-              </div>
-              <div class="media-body">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id quam et erat porta consectetur et ut libero.</a>
-              </div>
-            </div>
-          </div>
+        <div class="col-sm-3">
+        <div class="list-group" style="text-align:left;" role="group" aria-label="...">
+          <a href="#" class="list-group-item icon-acesso-informacao"> Acesso à informação</a>
+          <a href="#" class="list-group-item icon-e-sic">e-SIC</a>
+          <a href="#" class="list-group-item icon-ouvidoria">Ouvidoria</a>
+          <a href="#" class="list-group-item icon-calendario-pag">Calendário de pagamentos</a>
+          <a href="#" class="list-group-item icon-editais">Editais públicos</a>
+          <a href="#" class="list-group-item icon-nfe">Nota fiscal eletrônica</a>
+          <a href="#" class="list-group-item icon-diarios-oficiais">Diários oficiais</a>
         </div>
       </div>
     </div><!--.row-->
